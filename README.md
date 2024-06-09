@@ -70,7 +70,7 @@ const hexHash = Rusha.createHash().update('I am Rusha').digest('hex');
 const hash = Rusha.createHash(); 
 hash.update('I am');
 hash.update(' Rusha');
-const hexHash = rusha.digest('hex');
+const hexHash = hash.digest('hex');
 ```
 
 #### Reference
